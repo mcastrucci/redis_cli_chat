@@ -1,0 +1,15 @@
+this a rustic chat using Redis to subscribe / publish messages.
+
+after executing suscriber.js / publisher.js allows you to send a message to the chanel.
+here some sample outputs:
+
+-----Redis\redis_cli_chat> node .\publisher.js
+send any message to the chat! Hello World!
+----Redis\redis_cli_chat> node .\publisher.js
+send any message to the chat! This is a sample of a little chat
+
+Subscriber --
+
+-----Redis\redis_cli_chat> node .\suscriber.js
+Hello World!
+This is a sample of a little chat

@@ -1,0 +1,19 @@
+{
+  "name": "redis_cli_chat",
+  "version": "1.0.0",
+  "description": "a little program that uses redis to be chat-like with two clients, a suscriber and a publisher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "chat",
+    "node"
+  ],
+  "author": "mcastrucci",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
